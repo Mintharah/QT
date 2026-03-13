@@ -1,0 +1,2 @@
+/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/appNetBloom_autogen/include/../EWIEGA46WW/moc_BluetoothManager.cpp.json
+/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/appNetBloom_autogen/include/../EWIEGA46WW/moc_WifiManager.cpp.json

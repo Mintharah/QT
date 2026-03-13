@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/NetBloom/">
+    <file alias="Main.qml">/home/yasmine/NetBloom/Main.qml</file>
+    <file alias="WifiPage.qml">/home/yasmine/NetBloom/WifiPage.qml</file>
+    <file alias="BluetoothPage.qml">/home/yasmine/NetBloom/BluetoothPage.qml</file>
+  </qresource>
+</RCC>
+

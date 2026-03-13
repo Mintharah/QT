@@ -1,0 +1,16 @@
+--bare
+-I
+/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/NetBloom
+-I
+/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/yasmine/Qt/6.10.2/gcc_64/qml
+--resource
+/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_NetBloom.qrc
+--resource
+/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appNetBloom_raw_qml_0.qrc
+/home/yasmine/NetBloom/Main.qml
+/home/yasmine/NetBloom/WifiPage.qml
+/home/yasmine/NetBloom/BluetoothPage.qml

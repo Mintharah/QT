@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/NetBloom">
+    <file alias="qmldir">/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/NetBloom/qmldir</file>
+  </qresource>
+</RCC>
+
