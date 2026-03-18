@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-15753d296cdeeb791013.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Weather",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-59d470696535b6b7e3a0.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-4c965ad68ce7bb796231.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-7219e21624580c6ada6f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-91288ef4906c218cbe1a.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-112c412a554e71949613.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather-Debug-86195727d2b777c1de95.json",
+					"name" : "appWeather",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_autogen-Debug-80d520a275612f5c4d46.json",
+					"name" : "appWeather_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_autogen_timestamp_deps-Debug-87f75e263b57f87c117e.json",
+					"name" : "appWeather_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_copy_qml-Debug-4967c4d2cfb29d3c0e34.json",
+					"name" : "appWeather_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_copy_res-Debug-1a0d94a8304f592b0b57.json",
+					"name" : "appWeather_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_qmlimportscan-Debug-64d33849383d12a6e095.json",
+					"name" : "appWeather_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_qmllint-Debug-892bb2400cd8b7062ca9.json",
+					"name" : "appWeather_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_qmllint_json-Debug-decbf0af78ae01532732.json",
+					"name" : "appWeather_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_qmllint_module-Debug-2b11ef8fc5feea27bfa4.json",
+					"name" : "appWeather_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_qmltyperegistration-Debug-d7bbe86909a84877b89f.json",
+					"name" : "appWeather_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-8d746b12692e6446291b.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appWeather_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appWeather_aotstats_target-Debug-2f74ed6c1b5b5b479849.json",
+					"name" : "module_appWeather_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yasmine/Weather/build/Desktop_Qt_6_10_2-Debug",
+		"source" : "/home/yasmine/Weather"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

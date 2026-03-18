@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Weather/">
+    <file alias="Main.qml">/home/yasmine/Weather/Main.qml</file>
+  </qresource>
+</RCC>
+

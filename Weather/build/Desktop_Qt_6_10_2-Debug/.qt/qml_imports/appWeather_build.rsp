@@ -1,0 +1,14 @@
+-rootPath
+/home/yasmine/Weather
+-cmake-output
+-output-file
+/home/yasmine/Weather/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appWeather_build.cmake
+-importPath
+/home/yasmine/Weather/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/yasmine/Weather/build/Desktop_Qt_6_10_2-Debug/Weather
+-importPath
+/home/yasmine/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/yasmine/Weather/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_Weather.qrc
+/home/yasmine/Weather/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appWeather_raw_qml_0.qrc
