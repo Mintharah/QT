@@ -1,0 +1,8 @@
+--resource
+/home/yasmine/MultiMediaPlayer/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_MultiMediaPlayer.qrc
+--resource
+/home/yasmine/MultiMediaPlayer/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appMultiMediaPlayer_raw_qml_0.qrc
+/qt/qml/MultiMediaPlayer/Main.qml
+/qt/qml/MultiMediaPlayer/RadioPage.qml
+/qt/qml/MultiMediaPlayer/AudioPage.qml
+/qt/qml/MultiMediaPlayer/VideoPage.qml
