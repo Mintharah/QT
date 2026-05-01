@@ -1,0 +1,16 @@
+--bare
+-I
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/HVAC
+-I
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/yasmine/Qt/6.10.2/gcc_64/qml
+--resource
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_HVAC.qrc
+--resource
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appHVAC_raw_qml_0.qrc
+/home/yasmine/HVAC/Main.qml
+--json
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/appHVAC_qmllint.json

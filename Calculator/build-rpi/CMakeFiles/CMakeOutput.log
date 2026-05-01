@@ -1,0 +1,290 @@
+The target system is: Buildroot - 1 - aarch64
+The host system is: Linux - 6.8.0-106-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2;-g0;-D_FORTIFY_SOURCE=1
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c5f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c5f0.dir/build.make CMakeFiles/cmTC_8c5f0.dir/build
+gmake[1]: Entering directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++.br_real
+Target: aarch64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/home/yasmine/buildroot-2024.11/output/host --sysconfdir=/home/yasmine/buildroot-2024.11/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/yasmine/buildroot-2024.11/output/host --with-mpc=/home/yasmine/buildroot-2024.11/output/host --with-mpfr=/home/yasmine/buildroot-2024.11/output/host --with-pkgversion='Buildroot 2024.11' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 13.3.0 (Buildroot 2024.11) 
+COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8c5f0.dir/'
+ /home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/cc1plus -quiet -v -isysroot /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8c5f0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -g0 -O2 -version -fstack-protector-strong -fPIE -o /tmp/ccVZSqTp.s
+GNU C++17 (Buildroot 2024.11) version 13.3.0 (aarch64-buildroot-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.3.0, MPFR version 4.1.1, MPC version 1.3.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0
+ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/aarch64-buildroot-linux-gnu
+ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/backward
+ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include
+ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include-fixed
+ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include
+ /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/include
+End of search list.
+Compiler executable checksum: f4e45651221f5436f35350ff5e9317c1
+COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8c5f0.dir/'
+ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVZSqTp.s
+GNU assembler version 2.42 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.42
+COMPILER_PATH=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_8c5f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c5f0.dir/link.txt --verbose=1
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8c5f0 
+Using built-in specs.
+COLLECT_GCC=/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++.br_real
+COLLECT_LTO_WRAPPER=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/lto-wrapper
+Target: aarch64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/home/yasmine/buildroot-2024.11/output/host --sysconfdir=/home/yasmine/buildroot-2024.11/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/yasmine/buildroot-2024.11/output/host --with-mpc=/home/yasmine/buildroot-2024.11/output/host --with-mpfr=/home/yasmine/buildroot-2024.11/output/host --with-pkgversion='Buildroot 2024.11' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 13.3.0 (Buildroot 2024.11) 
+COMPILER_PATH=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8c5f0' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_8c5f0.'
+ /home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/collect2 -plugin /home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWobHVl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_8c5f0 /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtbeginS.o -L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0 -L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtendS.o /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8c5f0' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_8c5f0.'
+gmake[1]: Leaving directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0]
+    add: [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/aarch64-buildroot-linux-gnu]
+    add: [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/backward]
+    add: [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include]
+    add: [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include-fixed]
+    add: [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include]
+    add: [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include/c++/13.3.0]
+  collapse include dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/aarch64-buildroot-linux-gnu] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include/c++/13.3.0/aarch64-buildroot-linux-gnu]
+  collapse include dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/backward] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include/c++/13.3.0/backward]
+  collapse include dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include] ==> [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include]
+  collapse include dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include-fixed] ==> [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include-fixed]
+  collapse include dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include]
+  collapse include dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/include] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include/c++/13.3.0;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include/c++/13.3.0/aarch64-buildroot-linux-gnu;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include/c++/13.3.0/backward;/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include;/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include-fixed;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/include;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-buildroot-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c5f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c5f0.dir/build.make CMakeFiles/cmTC_8c5f0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++.br_real]
+  ignore line: [Target: aarch64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/yasmine/buildroot-2024.11/output/host --sysconfdir=/home/yasmine/buildroot-2024.11/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/yasmine/buildroot-2024.11/output/host --with-mpc=/home/yasmine/buildroot-2024.11/output/host --with-mpfr=/home/yasmine/buildroot-2024.11/output/host --with-pkgversion='Buildroot 2024.11' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.3.0 (Buildroot 2024.11) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8c5f0.dir/']
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/cc1plus -quiet -v -isysroot /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8c5f0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -g0 -O2 -version -fstack-protector-strong -fPIE -o /tmp/ccVZSqTp.s]
+  ignore line: [GNU C++17 (Buildroot 2024.11) version 13.3.0 (aarch64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.3.0  MPFR version 4.1.1  MPC version 1.3.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0]
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/aarch64-buildroot-linux-gnu]
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include/c++/13.3.0/backward]
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include]
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/include-fixed]
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/include]
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: f4e45651221f5436f35350ff5e9317c1]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8c5f0.dir/']
+  ignore line: [ /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVZSqTp.s]
+  ignore line: [GNU assembler version 2.42 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.42]
+  ignore line: [COMPILER_PATH=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_8c5f0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c5f0.dir/link.txt --verbose=1]
+  ignore line: [/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8c5f0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/yasmine/buildroot-2024.11/output/host --sysconfdir=/home/yasmine/buildroot-2024.11/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/yasmine/buildroot-2024.11/output/host --with-mpc=/home/yasmine/buildroot-2024.11/output/host --with-mpfr=/home/yasmine/buildroot-2024.11/output/host --with-pkgversion='Buildroot 2024.11' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a53 --enable-languages=c,c++ --with-build-time-tools=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.3.0 (Buildroot 2024.11) ]
+  ignore line: [COMPILER_PATH=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8c5f0' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_8c5f0.']
+  link line: [ /home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/collect2 -plugin /home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWobHVl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_8c5f0 /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtbeginS.o -L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0 -L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z max-page-size=4096 -z common-page-size=4096 -z now -z relro CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtendS.o /home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+    arg [/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/yasmine/buildroot-2024.11/output/host/libexec/gcc/aarch64-buildroot-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWobHVl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8c5f0] ==> ignore
+    arg [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o] ==> obj [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o]
+    arg [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+    arg [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtbeginS.o] ==> obj [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtbeginS.o]
+    arg [-L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0] ==> dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0]
+    arg [-L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64] ==> dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64]
+    arg [-L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib] ==> dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib]
+    arg [-L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib] ==> dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib]
+    arg [-L/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-zcommon-page-size=4096] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_8c5f0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtendS.o] ==> obj [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtendS.o]
+    arg [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+  collapse obj [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/Scrt1.o]
+  collapse obj [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crti.o]
+  collapse obj [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crtn.o]
+  collapse library dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0] ==> [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0]
+  collapse library dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/lib64]
+  collapse library dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib64]
+  collapse library dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/../../../../aarch64-buildroot-linux-gnu/lib] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/lib]
+  collapse library dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib]
+  collapse library dir [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/Scrt1.o;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crti.o;/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtbeginS.o;/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0/crtendS.o;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crtn.o]
+  implicit dirs: [/home/yasmine/buildroot-2024.11/output/host/lib/gcc/aarch64-buildroot-linux-gnu/13.3.0;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/lib64;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib64;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib64;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/lib;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/lib;/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa222/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa222.dir/build.make CMakeFiles/cmTC_aa222.dir/build
+gmake[1]: Entering directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa222.dir/CheckIncludeFile.cxx.o
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_aa222.dir/CheckIncludeFile.cxx.o -c /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_aa222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa222.dir/link.txt --verbose=1
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_aa222.dir/CheckIncludeFile.cxx.o -o cmTC_aa222 
+gmake[1]: Leaving directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94524/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94524.dir/build.make CMakeFiles/cmTC_94524.dir/build
+gmake[1]: Entering directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94524.dir/src.cxx.o
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_94524.dir/src.cxx.o -c /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_94524
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94524.dir/link.txt --verbose=1
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_94524.dir/src.cxx.o -o cmTC_94524 
+gmake[1]: Leaving directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18159/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18159.dir/build.make CMakeFiles/cmTC_18159.dir/build
+gmake[1]: Entering directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18159.dir/src.cxx.o
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -DHAVE_STDATOMIC  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_18159.dir/src.cxx.o -c /home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_18159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18159.dir/link.txt --verbose=1
+/home/yasmine/buildroot-2024.11/output/host/bin/aarch64-buildroot-linux-gnu-g++ --sysroot=/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_18159.dir/src.cxx.o -o cmTC_18159 
+gmake[1]: Leaving directory '/home/yasmine/Desktop/QT/Calculator/build-rpi/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+int main(int, char **)
+{
+    volatile std::atomic<char>    size_1;
+    volatile std::atomic<short>   size_2;
+    volatile std::atomic<int>     size_4;
+    volatile std::atomic<int64_t> size_8;
+
+    ++size_1;
+    ++size_2;
+    ++size_4;
+    ++size_8;
+
+    (void)size_1.load(std::memory_order_relaxed);
+    (void)size_2.load(std::memory_order_relaxed);
+    (void)size_4.load(std::memory_order_relaxed);
+    (void)size_8.load(std::memory_order_relaxed);
+
+    return 0;
+}

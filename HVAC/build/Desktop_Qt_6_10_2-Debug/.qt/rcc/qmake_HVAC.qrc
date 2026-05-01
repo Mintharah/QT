@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/HVAC">
+    <file alias="qmldir">/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/HVAC/qmldir</file>
+  </qresource>
+</RCC>
+

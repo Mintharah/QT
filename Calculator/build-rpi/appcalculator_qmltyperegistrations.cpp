@@ -1,0 +1,23 @@
+/****************************************************************************
+** Generated QML type registration code
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtQml/qqml.h>
+#include <QtQml/qqmlmoduleregistration.h>
+
+
+
+#if !defined(QT_STATIC)
+#define Q_QMLTYPE_EXPORT Q_DECL_EXPORT
+#else
+#define Q_QMLTYPE_EXPORT
+#endif
+Q_QMLTYPE_EXPORT void qml_register_types_Calculator()
+{
+    qmlRegisterModule("Calculator", 254, 0);
+    qmlRegisterModule("Calculator", 254, 254);
+}
+
+static const QQmlModuleRegistration calculatorRegistration("Calculator", qml_register_types_Calculator);

@@ -1,0 +1,192 @@
+{
+    "classes": [
+        {
+            "className": "HvacController",
+            "lineNumber": 5,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 8,
+                    "name": "temperature",
+                    "notify": "temperatureChanged",
+                    "read": "temperature",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setTemperature"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 9,
+                    "name": "fanSpeed",
+                    "notify": "fanSpeedChanged",
+                    "read": "fanSpeed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setFanSpeed"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 10,
+                    "name": "mode",
+                    "notify": "modeChanged",
+                    "read": "mode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 11,
+                    "name": "power",
+                    "notify": "powerChanged",
+                    "read": "power",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setPower"
+                }
+            ],
+            "qualifiedClassName": "HvacController",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "temp",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 28,
+                    "name": "temperatureChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "speed",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 29,
+                    "name": "fanSpeedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mode",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 30,
+                    "name": "modeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "on",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 31,
+                    "name": "powerChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "temp",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 22,
+                    "name": "setTemperature",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "speed",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 23,
+                    "name": "setFanSpeed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mode",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 24,
+                    "name": "setMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "on",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 25,
+                    "name": "setPower",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "hvacController.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,14 @@
+-rootPath
+/home/yasmine/Desktop/QT/Calculator
+-cmake-output
+-output-file
+/home/yasmine/Desktop/QT/Calculator/build-rpi/.qt/qml_imports/appCalculator_conf.cmake
+-importPath
+/home/yasmine/Desktop/QT/Calculator/build-rpi/Calculator
+-importPath
+/home/yasmine/Desktop/QT/Calculator/build-rpi
+-importPath
+/home/yasmine/buildroot-2024.11/output/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/qt6/qml
+-qrcFiles
+/home/yasmine/Desktop/QT/Calculator/build-rpi/.qt/rcc/qmake_Calculator.qrc
+/home/yasmine/Desktop/QT/Calculator/build-rpi/.qt/rcc/appCalculator_raw_qml_0.qrc

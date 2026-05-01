@@ -1,0 +1,14 @@
+-rootPath
+/home/yasmine/HVAC
+-cmake-output
+-output-file
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appHVAC_conf.cmake
+-importPath
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/HVAC
+-importPath
+/home/yasmine/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_HVAC.qrc
+/home/yasmine/HVAC/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appHVAC_raw_qml_0.qrc

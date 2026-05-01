@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/HVAC/">
+    <file alias="Main.qml">/home/yasmine/HVAC/Main.qml</file>
+  </qresource>
+</RCC>
+
