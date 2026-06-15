@@ -1,9 +1,0 @@
-module MultiMediaPlayer
-typeinfo appMultiMediaPlayer.qmltypes
-prefer :/qt/qml/MultiMediaPlayer/
-Main 254.0 Main.qml
-RadioPage 254.0 RadioPage.qml
-AudioPage 254.0 AudioPage.qml
-VideoPage 254.0 VideoPage.qml
-depends QtQuick
-

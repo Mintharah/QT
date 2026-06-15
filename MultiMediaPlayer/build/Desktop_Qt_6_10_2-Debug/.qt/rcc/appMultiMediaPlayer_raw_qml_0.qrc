@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/MultiMediaPlayer/">
-    <file alias="Main.qml">/home/yasmine/MultiMediaPlayer/Main.qml</file>
-    <file alias="RadioPage.qml">/home/yasmine/MultiMediaPlayer/RadioPage.qml</file>
-    <file alias="AudioPage.qml">/home/yasmine/MultiMediaPlayer/AudioPage.qml</file>
-    <file alias="VideoPage.qml">/home/yasmine/MultiMediaPlayer/VideoPage.qml</file>
-  </qresource>
-</RCC>
-
