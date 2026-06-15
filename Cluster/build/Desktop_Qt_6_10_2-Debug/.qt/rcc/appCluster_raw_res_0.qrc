@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Cluster/">
-    <file alias="images.qrc">/home/yasmine/Cluster/images.qrc</file>
-  </qresource>
-</RCC>
-
