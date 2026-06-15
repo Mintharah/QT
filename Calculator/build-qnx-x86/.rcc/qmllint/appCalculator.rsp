@@ -1,0 +1,10 @@
+--bare
+-I
+/home/yasmine/Desktop/QT/Calculator/build-qnx-x86
+-I
+/home/yasmine/qt6-qnx-x86/qml
+--resource
+/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/.qt/rcc/qmake_Calculator.qrc
+--resource
+/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/.qt/rcc/appCalculator_raw_qml_0.qrc
+/home/yasmine/Desktop/QT/Calculator/Main.qml

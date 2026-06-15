@@ -1,0 +1,10 @@
+-I
+/home/yasmine/Desktop/QT/Calculator/build-qnx
+-I
+/home/yasmine/qt6-qnx/qml
+--resource
+/home/yasmine/Desktop/QT/Calculator/build-qnx/.qt/rcc/qmake_Calculator.qrc
+--resource
+/home/yasmine/Desktop/QT/Calculator/build-qnx/.qt/rcc/appCalculator_raw_qml_0.qrc
+--module
+Calculator

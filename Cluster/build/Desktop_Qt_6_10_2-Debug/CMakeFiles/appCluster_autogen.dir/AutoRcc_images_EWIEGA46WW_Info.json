@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/appCluster_autogen",
+	"CMAKE_BINARY_DIR" : "/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/yasmine/Cluster",
+	"CMAKE_SOURCE_DIR" : "/home/yasmine/Cluster",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/appCluster_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/yasmine/Cluster/images/voltage.svg",
+		"/home/yasmine/Cluster/images/car.png",
+		"/home/yasmine/Cluster/images/temp.svg",
+		"/home/yasmine/Cluster/images/speed.svg",
+		"/home/yasmine/Cluster/images/vibration.svg"
+	],
+	"LOCK_FILE" : "/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/appCluster_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/home/yasmine/Qt/6.10.2/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/appCluster_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/yasmine/Cluster/images.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

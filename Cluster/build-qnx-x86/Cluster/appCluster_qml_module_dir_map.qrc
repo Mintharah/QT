@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Cluster">/home/yasmine/Cluster/build-qnx-x86/Cluster</file>
+
+  </qresource>
+</RCC>

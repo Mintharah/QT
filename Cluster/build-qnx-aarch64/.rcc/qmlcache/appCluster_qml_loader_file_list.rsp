@@ -1,0 +1,5 @@
+--resource
+/home/yasmine/Cluster/build-qnx-aarch64/.qt/rcc/qmake_Cluster.qrc
+--resource
+/home/yasmine/Cluster/build-qnx-aarch64/.qt/rcc/appCluster_raw_qml_0.qrc
+/qt/qml/Cluster/Main.qml

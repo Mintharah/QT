@@ -1,0 +1,308 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "numberPressed",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "operatorPressed",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 760,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "equalsPressed",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "clearPressed",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 80
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 117
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot access value for name label",
+                        "functionName": "text",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 129
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 121,
+                        "errorMessage": "method tapped cannot be resolved.",
+                        "functionName": "onClicked",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "Cannot access value for name btnColor",
+                        "functionName": "onPressed",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "Cannot access value for name btnColor",
+                        "functionName": "onReleased",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "method clearPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 142
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot access value for name currentInput",
+                        "functionName": "onTapped",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "Cannot access value for name currentInput",
+                        "functionName": "onTapped",
+                        "line": 155
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "method operatorPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 163
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 169
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 173
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 106,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 177
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "method operatorPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 182
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 188
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 192
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 106,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 196
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "method operatorPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 201
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 207
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 211
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 215
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "method operatorPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 220
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "method numberPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 228
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "Cannot access value for name currentInput",
+                        "functionName": "onTapped",
+                        "line": 233
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "method equalsPressed cannot be resolved.",
+                        "functionName": "onTapped",
+                        "line": 243
+                    }
+                ],
+                "filePath": "/home/yasmine/Desktop/QT/Calculator/Main.qml"
+            }
+        ],
+        "moduleId": "Calculator(appCalculator)"
+    }
+]

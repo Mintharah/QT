@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Calculator">/home/yasmine/Desktop/QT/Calculator/build-qnx/Calculator</file>
+
+  </qresource>
+</RCC>

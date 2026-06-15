@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appCluster_FILE /home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/appCluster)
+set(__QT_DEPLOY_TARGET_appCluster_TYPE EXECUTABLE)

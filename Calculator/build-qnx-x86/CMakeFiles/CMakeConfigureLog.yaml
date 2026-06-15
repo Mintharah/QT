@@ -1,0 +1,345 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: QNX - 8.0.0 - x86_64
+      The host system is: Linux - 6.8.0-111-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ 
+      Build flags: 
+      Id flags: -c;--target=gcc_ntox86_64 
+      
+      The output was:
+      1
+      cc: unknown option: '--target=gcc_ntox86_64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-rq8dGJ"
+      binary: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-rq8dGJ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -g"
+      CMAKE_C_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/yasmine/qnx-qemu/qnx800/target/qnx"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-rq8dGJ'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_0196b
+        [1/2] /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++   -v -Wp,-MD,CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -Wp,-MT,CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -Wp,-MF,CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64++.conf
+        cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64.conf
+        cc: warning - lang-c++ is deprecated
+        /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/cc1plus -quiet -fstack-protector-strong -nostdinc -nostdinc++ -std=gnu++17 -D__QNX__=800 -D__QNXNTO__ -D__GNUC__=12 -D__GNUC_MINOR__=2 -D__GNUC_PATCHLEVEL__=0 -D__NO_INLINE__ -D__DEPRECATED -D__unix__ -D__unix -D__ELF__ -fPIE -D__X86_64__ -D__LITTLEENDIAN__ -Asystem(unix) -iplugindir=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/plugin -isysroot /home/yasmine/qnx-qemu/qnx800/target/qnx -MD CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -isystem /home/yasmine/qnx-qemu/qnx800/target/qnx/usr/include/c++/v1 -isystem /home/yasmine/qnx-qemu/qnx800/target/qnx/usr/include -isystem /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/include /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -dumpbase /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -o - | \\
+         /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/x86_64-pc-nto-qnx8.0.0-as -o CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o
+        [2/2] : && /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++  -v CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0196b   && :
+        cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64++.conf
+        cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64.conf
+        cc: warning - lang-c++ is deprecated
+        /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/x86_64-pc-nto-qnx8.0.0-ld -plugin=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/liblto_plugin.so -plugin-opt=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/filejrYURN_qcc_102905/tmp_qcc_102905.res --dynamic-linker /usr/lib/ldqnx-64.so.2 --sysroot=/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/ --hash-style=gnu --build-id=md5 --warn-shared-textrel -zrelro -znow -pie --eh-frame-hdr /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crt1.o /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crti.o /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtbegin.o CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0196b -rpath-link /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib -Y/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib -L/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/ -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0 -L/home/yasmine/qnx-qemu/qnx800/target/qnx/usr/x86_64-pc-nto-qnx8.0.0/lib/ -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/ -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib -lc++ -lm -lc -lcS -lgcc_s -lgcc_eh /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtend.o /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crtn.o
+        cc: unlinking /tmp/filejrYURN_qcc_102905/tmp_qcc_102905.res
+        cc: removing  /tmp/filejrYURN_qcc_102905
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-rq8dGJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_0196b]
+        ignore line: [[1/2] /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc -isysroot /home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++   -v -Wp -MD CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -Wp -MT CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -Wp -MF CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64++.conf]
+        ignore line: [cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64.conf]
+        ignore line: [cc: warning - lang-c++ is deprecated]
+        ignore line: [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/cc1plus -quiet -fstack-protector-strong -nostdinc -nostdinc++ -std=gnu++17 -D__QNX__=800 -D__QNXNTO__ -D__GNUC__=12 -D__GNUC_MINOR__=2 -D__GNUC_PATCHLEVEL__=0 -D__NO_INLINE__ -D__DEPRECATED -D__unix__ -D__unix -D__ELF__ -fPIE -D__X86_64__ -D__LITTLEENDIAN__ -Asystem(unix) -iplugindir=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/plugin -isysroot /home/yasmine/qnx-qemu/qnx800/target/qnx -MD CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o.d -isystem /home/yasmine/qnx-qemu/qnx800/target/qnx/usr/include/c++/v1 -isystem /home/yasmine/qnx-qemu/qnx800/target/qnx/usr/include -isystem /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/include /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -dumpbase /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -o - | ; /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/x86_64-pc-nto-qnx8.0.0-as -o CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [[2/2] : && /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc -isysroot /home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++  -v CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0196b   && :]
+        ignore line: [cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64++.conf]
+        ignore line: [cc: looking for gcc_ntox86_64 in /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/etc/qcc/gcc/12.2.0/gcc_ntox86_64.conf]
+        ignore line: [cc: warning - lang-c++ is deprecated]
+        link line: [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/x86_64-pc-nto-qnx8.0.0-ld -plugin=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/liblto_plugin.so -plugin-opt=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/filejrYURN_qcc_102905/tmp_qcc_102905.res --dynamic-linker /usr/lib/ldqnx-64.so.2 --sysroot=/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/ --hash-style=gnu --build-id=md5 --warn-shared-textrel -zrelro -znow -pie --eh-frame-hdr /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crt1.o /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crti.o /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtbegin.o CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0196b -rpath-link /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib -Y/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib -L/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/ -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0 -L/home/yasmine/qnx-qemu/qnx800/target/qnx/usr/x86_64-pc-nto-qnx8.0.0/lib/ -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/ -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib -L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib -lc++ -lm -lc -lcS -lgcc_s -lgcc_eh /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtend.o /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crtn.o]
+          arg [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/x86_64-pc-nto-qnx8.0.0-ld] ==> ignore
+          arg [-plugin=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/filejrYURN_qcc_102905/tmp_qcc_102905.res] ==> ignore
+          arg [--dynamic-linker] ==> ignore
+          arg [/usr/lib/ldqnx-64.so.2] ==> ignore
+          arg [--sysroot=/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id=md5] ==> ignore
+          arg [--warn-shared-textrel] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-pie] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crt1.o] ==> obj [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crt1.o]
+          arg [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crti.o] ==> obj [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crti.o]
+          arg [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtbegin.o] ==> obj [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtbegin.o]
+          arg [CMakeFiles/cmTC_0196b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0196b] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib] ==> ignore
+          arg [-Y/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib:/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib] ==> dirs [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib;/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib;/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib]
+          arg [-L/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/] ==> dir [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/]
+          arg [-L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0] ==> dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0]
+          arg [-L/home/yasmine/qnx-qemu/qnx800/target/qnx/usr/x86_64-pc-nto-qnx8.0.0/lib/] ==> dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/usr/x86_64-pc-nto-qnx8.0.0/lib/]
+          arg [-L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/] ==> dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/]
+          arg [-L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib] ==> dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib]
+          arg [-L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib] ==> dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib]
+          arg [-L/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib] ==> dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib]
+          arg [-lc++] ==> lib [c++]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [-lcS] ==> lib [cS]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtend.o] ==> obj [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtend.o]
+          arg [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crtn.o] ==> obj [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crtn.o]
+        remove lib [gcc_eh]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/] ==> [/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/usr/x86_64-pc-nto-qnx8.0.0/lib/] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/usr/x86_64-pc-nto-qnx8.0.0/lib]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib]
+        collapse library dir [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib] ==> [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib]
+        implicit libs: [c++;m;c;cS;gcc_s]
+        implicit objs: [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crt1.o;/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crti.o;/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtbegin.o;/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0/crtend.o;/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/crtn.o]
+        implicit dirs: [/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib;/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib;/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/opt/lib;/home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/lib/gcc/x86_64-pc-nto-qnx8.0.0/12.2.0;/home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/lib/gcc/12.2.0;/home/yasmine/qnx-qemu/qnx800/target/qnx/usr/x86_64-pc-nto-qnx8.0.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/Qt6Config.cmake:172 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-BES3Am"
+      binary: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-BES3Am"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -g"
+      CMAKE_C_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/yasmine/qnx-qemu/qnx800/target/qnx"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-BES3Am'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_ac0e0
+        [1/2] /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++ -DCMAKE_HAVE_LIBC_PTHREAD   -Wp,-MD,CMakeFiles/cmTC_ac0e0.dir/src.cxx.o.d -Wp,-MT,CMakeFiles/cmTC_ac0e0.dir/src.cxx.o -Wp,-MF,CMakeFiles/cmTC_ac0e0.dir/src.cxx.o.d -o CMakeFiles/cmTC_ac0e0.dir/src.cxx.o -c /home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-BES3Am/src.cxx
+        cc: warning - lang-c++ is deprecated
+        [2/2] : && /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++   CMakeFiles/cmTC_ac0e0.dir/src.cxx.o -o cmTC_ac0e0   && :
+        cc: warning - lang-c++ is deprecated
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/Qt6Config.cmake:233 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-mMimQ1"
+      binary: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-mMimQ1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -g"
+      CMAKE_C_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/yasmine/qnx-qemu/qnx800/target/qnx"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-mMimQ1'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_c429e
+        [1/2] /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++ -DHAVE_STDATOMIC   -Wp,-MD,CMakeFiles/cmTC_c429e.dir/src.cxx.o.d -Wp,-MT,CMakeFiles/cmTC_c429e.dir/src.cxx.o -Wp,-MF,CMakeFiles/cmTC_c429e.dir/src.cxx.o.d -o CMakeFiles/cmTC_c429e.dir/src.cxx.o -c /home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-mMimQ1/src.cxx
+        cc: warning - lang-c++ is deprecated
+        [2/2] : && /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++   CMakeFiles/cmTC_c429e.dir/src.cxx.o -o cmTC_c429e   && :
+        cc: warning - lang-c++ is deprecated
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:128 (check_cxx_source_compiles)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/FindGLESv2.cmake:13 (find_package)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/Qt6Config.cmake:233 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-UwZin8"
+      binary: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-UwZin8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -g"
+      CMAKE_C_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/yasmine/qnx-qemu/qnx800/target/qnx"
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-UwZin8'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_57bb0
+        [1/2] /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++ -DHAVE_EGL   -Wp,-MD,CMakeFiles/cmTC_57bb0.dir/src.cxx.o.d -Wp,-MT,CMakeFiles/cmTC_57bb0.dir/src.cxx.o -Wp,-MF,CMakeFiles/cmTC_57bb0.dir/src.cxx.o.d -o CMakeFiles/cmTC_57bb0.dir/src.cxx.o -c /home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-UwZin8/src.cxx
+        cc: warning - lang-c++ is deprecated
+        [2/2] : && /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++   CMakeFiles/cmTC_57bb0.dir/src.cxx.o -o cmTC_57bb0  /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib/libEGL.so && :
+        cc: warning - lang-c++ is deprecated
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/FindGLESv2.cmake:28 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/Qt6Config.cmake:233 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_GLESv2"
+    directories:
+      source: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-TjZJIN"
+      binary: "/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-TjZJIN"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -g"
+      CMAKE_C_COMPILER_TARGET: "gcc_ntox86_64"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/yasmine/qt6-qnx-x86/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/yasmine/qnx-qemu/qnx800/target/qnx"
+    buildResult:
+      variable: "HAVE_GLESv2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-TjZJIN'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_3c735
+        [1/2] /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++ -DHAVE_GLESv2   -Wp,-MD,CMakeFiles/cmTC_3c735.dir/src.cxx.o.d -Wp,-MT,CMakeFiles/cmTC_3c735.dir/src.cxx.o -Wp,-MF,CMakeFiles/cmTC_3c735.dir/src.cxx.o.d -o CMakeFiles/cmTC_3c735.dir/src.cxx.o -c /home/yasmine/Desktop/QT/Calculator/build-qnx-x86/CMakeFiles/CMakeScratch/TryCompile-TjZJIN/src.cxx
+        cc: warning - lang-c++ is deprecated
+        [2/2] : && /home/yasmine/qnx-qemu/qnx800/host/linux/x86_64/usr/bin/q++ -Vgcc_ntox86_64 -Wc,-isysroot,/home/yasmine/qnx-qemu/qnx800/target/qnx -lang-c++   CMakeFiles/cmTC_3c735.dir/src.cxx.o -o cmTC_3c735  /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib/libGLESv2.so  /home/yasmine/qnx-qemu/qnx800/target/qnx/x86_64/usr/lib/libEGL.so && :
+        cc: warning - lang-c++ is deprecated
+        
+      exitCode: 0
+...

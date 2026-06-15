@@ -1,0 +1,15 @@
+-rootPath
+/home/yasmine/Cluster
+-cmake-output
+-output-file
+/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appCluster_build.cmake
+-importPath
+/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/Cluster
+-importPath
+/home/yasmine/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_Cluster.qrc
+/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appCluster_raw_qml_0.qrc
+/home/yasmine/Cluster/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appCluster_raw_res_0.qrc

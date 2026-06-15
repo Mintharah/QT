@@ -1,0 +1,15 @@
+set(CMAKE_HOST_SYSTEM "Linux-6.8.0-111-generic")
+set(CMAKE_HOST_SYSTEM_NAME "Linux")
+set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-111-generic")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
+
+include("/home/yasmine/qt6-qnx-x86-toolchain.cmake")
+
+set(CMAKE_SYSTEM "QNX-8.0.0")
+set(CMAKE_SYSTEM_NAME "QNX")
+set(CMAKE_SYSTEM_VERSION "8.0.0")
+set(CMAKE_SYSTEM_PROCESSOR "x86_64")
+
+set(CMAKE_CROSSCOMPILING "TRUE")
+
+set(CMAKE_SYSTEM_LOADED 1)

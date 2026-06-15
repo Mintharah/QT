@@ -1,0 +1,14 @@
+-rootPath
+/home/yasmine/Cluster
+-cmake-output
+-output-file
+/home/yasmine/Cluster/build-qnx-aarch64/.qt/qml_imports/appCluster_build.cmake
+-importPath
+/home/yasmine/Cluster/build-qnx-aarch64/Cluster
+-importPath
+/home/yasmine/Cluster/build-qnx-aarch64
+-importPath
+/home/yasmine/qt6-qnx/qml
+-qrcFiles
+/home/yasmine/Cluster/build-qnx-aarch64/.qt/rcc/qmake_Cluster.qrc
+/home/yasmine/Cluster/build-qnx-aarch64/.qt/rcc/appCluster_raw_qml_0.qrc
