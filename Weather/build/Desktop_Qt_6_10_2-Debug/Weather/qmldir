@@ -1,6 +1,0 @@
-module Weather
-typeinfo appWeather.qmltypes
-prefer :/qt/qml/Weather/
-Main 254.0 Main.qml
-depends QtQuick
-

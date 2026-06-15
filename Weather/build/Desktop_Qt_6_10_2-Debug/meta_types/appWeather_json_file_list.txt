@@ -1,1 +1,0 @@
-/home/yasmine/Weather/build/Desktop_Qt_6_10_2-Debug/appWeather_autogen/include/../EWIEGA46WW/moc_WeatherManager.cpp.json
