@@ -1,8 +1,0 @@
-module NetBloom
-typeinfo appNetBloom.qmltypes
-prefer :/qt/qml/NetBloom/
-Main 254.0 Main.qml
-WifiPage 254.0 WifiPage.qml
-BluetoothPage 254.0 BluetoothPage.qml
-depends QtQuick
-

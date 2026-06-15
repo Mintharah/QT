@@ -1,7 +1,0 @@
---resource
-/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_NetBloom.qrc
---resource
-/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appNetBloom_raw_qml_0.qrc
-/qt/qml/NetBloom/Main.qml
-/qt/qml/NetBloom/WifiPage.qml
-/qt/qml/NetBloom/BluetoothPage.qml

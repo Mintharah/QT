@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appNetBloom_FILE /home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/appNetBloom)
-set(__QT_DEPLOY_TARGET_appNetBloom_TYPE EXECUTABLE)

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/NetBloom">/home/yasmine/NetBloom/build/Desktop_Qt_6_10_2-Debug/NetBloom</file>
-
-  </qresource>
-</RCC>
