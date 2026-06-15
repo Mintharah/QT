@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Cluster">
-    <file alias="qmldir">/home/yasmine/Cluster/build-qnx-aarch64/Cluster/qmldir</file>
-  </qresource>
-</RCC>
-
