@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_Spongebob_FILE /home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/Spongebob)
-set(__QT_DEPLOY_TARGET_Spongebob_TYPE EXECUTABLE)

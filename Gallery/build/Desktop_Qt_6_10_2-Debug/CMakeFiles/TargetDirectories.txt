@@ -1,9 +1,0 @@
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/Spongebob.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/edit_cache.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/rebuild_cache.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/list_install_components.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/install.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/install/local.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/install/strip.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/Spongebob_autogen_timestamp_deps.dir
-/home/yasmine/Spongebob/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/Spongebob_autogen.dir
